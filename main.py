@@ -17,6 +17,7 @@ STATUS = "HiddenBot break constantly"
 client = commands.Bot(command_prefix = PREFIX, case_insensitive = True)
 
 
+
 # functions
 
 
