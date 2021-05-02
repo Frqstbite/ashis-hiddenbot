@@ -1,16 +1,13 @@
 import discord
-import json
+import os
 
 from discord.ext import commands
 
-#read config
-with open("config.json") as file:
-    config = json.load(file)
 
-#d
+
 # constants
-TOKEN = config.token
-PREFIX = config.prefix
+TOKEN = os.getenv("TOKEN")
+PREFIX = os.getenv("PREFIX")
 STATUS = "HiddenBot break constantly"
 
 # variables
