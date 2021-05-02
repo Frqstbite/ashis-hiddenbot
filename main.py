@@ -7,7 +7,7 @@ from discord.ext import commands
 with open("config.json") as file:
     config = json.load(file)
 
-
+#d
 # constants
 TOKEN = config.token
 PREFIX = config.prefix
